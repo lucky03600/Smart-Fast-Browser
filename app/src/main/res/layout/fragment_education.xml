@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list2"
+    android:id="@+id/layout2"
+    tools:context=".EducationFragment">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/search2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ems="10"
+            android:hint="Enter URL"
+            android:textColor="@android:color/white"
+            android:textStyle="italic"
+            android:lines="2"
+            android:fontFamily="serif"
+            android:textColorHint="@android:color/darker_gray"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/searchbtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/black"
+            android:fontFamily="serif"
+            android:text="Search"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/coursera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/gradient6"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:text="Coursera" />
+
+        <Button
+            android:id="@+id/edx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/gradient4"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:text="EdX" />
+
+        <Button
+            android:id="@+id/academic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/gradient5"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:text="Academic Earth" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/internet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/gradient_list2"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:text="Internet Archive" />
+
+        <Button
+            android:id="@+id/bigthink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/gradient2"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:text="Big Think" />
+
+        <Button
+            android:id="@+id/brightstorm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/gradient1"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:text="Brightstorm" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear3"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cosmo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/gradient4"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:text="CosmoLearning" />
+
+        <Button
+            android:id="@+id/khan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/gradient6"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:text="KhanAcademy" />
+
+        <Button
+            android:id="@+id/howcast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/gradient2"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:text="Howcast" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear4"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/udemy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/gradient1"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:text="Udemy" />
+
+        <Button
+            android:id="@+id/byjus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:background="@drawable/gradient_list2"
+            android:text="BYJU'S" />
+
+        <Button
+            android:id="@+id/unacedemy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/gradient5"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:text="Unacademy" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear5"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/lynda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/gradient2"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:text="Lynda" />
+
+        <Button
+            android:id="@+id/toppr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/gradient4"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:text="toppr" />
+
+        <Button
+            android:id="@+id/ted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:background="@drawable/gradient6"
+            android:text="TED" />
+    </LinearLayout>
+
+    <com.startapp.sdk.ads.banner.Banner
+        android:id="@+id/startAppBanner"
+        android:layout_alignParentBottom="true"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

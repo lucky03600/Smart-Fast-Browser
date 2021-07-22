@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list3"
+    android:id="@+id/layout3"
+    tools:context=".JobsFragment">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/searchurl3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ems="10"
+            android:textColor="@android:color/white"
+            android:textStyle="italic"
+            android:lines="2"
+            android:fontFamily="serif"
+            android:textColorHint="@android:color/darker_gray"
+            android:hint="Enter URL"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/searchbtn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:background="@android:color/black"
+
+            android:text="Search" />
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/l2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/l1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/indeed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/gradient_list3"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:text="Indeed" />
+
+            <Button
+                android:id="@+id/careerbuilder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/gradient4"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+
+                android:text="CareerBuilder" />
+
+            <Button
+                android:id="@+id/dice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/gradient6"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+
+                android:text="Dice" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l3"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/l2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/idealist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/gradient_list2"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+
+                android:text="Idealist" />
+
+            <Button
+                android:id="@+id/googlejobs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/gradient2"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+
+                android:text="Google for Jobs" />
+
+            <Button
+                android:id="@+id/glassdoor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/gradient1"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:textColor="@android:color/white"
+
+                android:text="Glassdoor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l4"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/l3"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/linkedin4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/gradient6"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+
+                android:text="LinkedIn" />
+
+            <Button
+                android:id="@+id/linkup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/gradient_list2"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+
+                android:text="LinkUp" />
+
+            <Button
+                android:id="@+id/monster"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+
+                android:background="@drawable/gradient4"
+                android:text="Monster" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l5"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/l4"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/timesjobs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/gradient2"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:text="TimesJobs" />
+
+            <Button
+                android:id="@+id/shine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/gradient_list3"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+
+                android:text="Shine" />
+
+            <Button
+                android:id="@+id/fresherworld"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/gradient_list2"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+
+                android:text="Freshersworld" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/l5"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/freelancer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/gradient4"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+
+                android:text="FreelanceMyWay" />
+
+            <Button
+                android:id="@+id/upwork"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/gradient_list"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:textColor="@android:color/white"
+
+                android:text="Upwork" />
+
+            <Button
+                android:id="@+id/jobsarkari"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+
+                android:background="@drawable/gradient2"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:text="JobSarkari" />
+        </LinearLayout>
+
+
+
+
+    <com.startapp.sdk.ads.banner.Banner
+        android:id="@+id/startAppBanner"
+        android:layout_below="@+id/myTab"
+        android:layout_alignParentBottom="true"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout8"
+    android:background="@drawable/gradient_list4"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:id="@+id/about"
+        android:textColor="@android:color/white"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="@string/about"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+
+    <TextView
+        android:id="@+id/about1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/about"
+
+        android:layout_marginTop="-15dp"
+        android:fontFamily="serif"
+        android:padding="10dp"
+        android:text="@string/about1"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/about1"
+        android:layout_marginTop="-9dp"
+        android:fontFamily="serif"
+        android:text="Email:-"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/emailid"
+        android:fontFamily="serif"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email"
+        android:text="lucky03600@gmail.com"
+        android:autoLink="email"
+        android:textStyle="italic"
+        android:textSize="15sp"/>
+
+
+    <TextView
+        android:id="@+id/privacypolicy"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailid"
+        android:layout_marginTop="1dp"
+        android:fontFamily="serif"
+        android:text="Privacy Policy:-"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/privacyid"
+        android:fontFamily="serif"
+
+        android:layout_below="@+id/privacypolicy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="https://sites.google.com/view/smartfastbrowser"
+        android:textStyle="italic"
+        android:textSize="15sp"/>
+
+    <com.startapp.sdk.ads.banner.Banner
+        android:id="@+id/startAppBanner"
+        android:layout_alignParentBottom="true"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+</RelativeLayout>

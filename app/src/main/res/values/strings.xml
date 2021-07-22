@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Smart &amp; Fast Browser</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="quotes">Networking Is Not About Collecting CONTACTS! Networking Is About Planting RELATIONS.</string>
+
+    <string name="about">It is all in one web browser where you can instantly access and immediate entry to all top websites.
+
+</string>
+
+    <string name="about1">In this web browser, you will be benefited with all in one different category of sites like popular sites including Google, Facebook, Amazon, etc ;  social networking sites including Instagram, Twitter, Snapchat, etc ; educational sites including Udemy, TED, Lynda, etc ; job sites including Linkedin, Indeed, Glassdoor, etc
+You can easily surf any Internet websites by just entering the URL. </string>
+</resources>
